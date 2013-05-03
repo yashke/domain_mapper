@@ -22,8 +22,6 @@ How to define map:
 
 ```ruby
 class DomainClass
-  def initialize
-  end
 end
 
 map = DomainMapper::Map.new(DomainClass) do
