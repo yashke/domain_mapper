@@ -25,7 +25,7 @@ class DomainClass
 end
 
 map = DomainMapper::Map.new(DomainClass) do
-  attribute :instance_variable_name, from: "key value"
+  attribute :instance_variable_name, "key value"
 end
 hash = {
   "key value" => "value"
